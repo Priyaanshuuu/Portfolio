@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6 md:gap-8">
           {/* Resume Link */}
           <a 
-            href="https://drive.google.com/your-resume-link" 
+            href="https://drive.google.com/file/d/1U46oN1mWPsws8CGzkI7k5DEa8rbLqpgR/view?usp=sharing" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 text-neutral-400 hover:text-white transition-colors group"
@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* Download Resume Button */}
           <motion.a 
-            href="https://drive.google.com/your-resume-download-link" 
+            href="https://drive.google.com/file/d/1U46oN1mWPsws8CGzkI7k5DEa8rbLqpgR/view?usp=sharing" 
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
